@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap');
-@import 'tailwindcss';
-@import 'tw-animate-css';
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap");
+@import "tailwindcss";
+@import "tw-animate-css";
 @plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:is(.dark *));
@@ -57,11 +57,11 @@
 }
 
 :root {
-  --button-outline: rgba(28,31,33,.14);
-  --badge-outline: rgba(28,31,33,.1);
+  --button-outline: rgba(28, 31, 33, 0.14);
+  --badge-outline: rgba(28, 31, 33, 0.1);
   --opaque-button-border-intensity: 7;
-  --elevate-1: rgba(28,31,33,.035);
-  --elevate-2: rgba(28,31,33,.07);
+  --elevate-1: rgba(28, 31, 33, 0.035);
+  --elevate-2: rgba(28, 31, 33, 0.07);
   --background: 42 20% 96%;
   --foreground: 210 10% 13%;
   --border: 35 8% 82%;
@@ -96,20 +96,20 @@
   --chart-3: 160 20% 38%;
   --chart-4: 22 25% 50%;
   --chart-5: 2 62% 44%;
-  --app-font-sans: 'DM Sans', ui-sans-serif, sans-serif;
+  --app-font-sans: "DM Sans", ui-sans-serif, sans-serif;
   --app-font-serif: Georgia, serif;
-  --app-font-mono: 'Space Mono', ui-monospace, monospace;
-  --radius: .15rem;
-  --shadow-2xs: 0 1px 2px hsl(210 10% 13% / .06);
-  --shadow-xs: 0 2px 4px hsl(210 10% 13% / .06);
-  --shadow-sm: 0 8px 24px hsl(210 10% 13% / .08);
-  --shadow: 0 14px 34px hsl(210 10% 13% / .1);
-  --shadow-md: 0 22px 52px hsl(210 10% 13% / .12);
-  --shadow-lg: 0 30px 80px hsl(210 10% 13% / .14);
-  --shadow-xl: 0 40px 110px hsl(210 10% 13% / .16);
-  --shadow-2xl: 0 50px 140px hsl(210 10% 13% / .18);
+  --app-font-mono: "Space Mono", ui-monospace, monospace;
+  --radius: 0.15rem;
+  --shadow-2xs: 0 1px 2px hsl(210 10% 13% / 0.06);
+  --shadow-xs: 0 2px 4px hsl(210 10% 13% / 0.06);
+  --shadow-sm: 0 8px 24px hsl(210 10% 13% / 0.08);
+  --shadow: 0 14px 34px hsl(210 10% 13% / 0.1);
+  --shadow-md: 0 22px 52px hsl(210 10% 13% / 0.12);
+  --shadow-lg: 0 30px 80px hsl(210 10% 13% / 0.14);
+  --shadow-xl: 0 40px 110px hsl(210 10% 13% / 0.16);
+  --shadow-2xl: 0 50px 140px hsl(210 10% 13% / 0.18);
   --tracking-normal: 0em;
-  --spacing: .25rem;
+  --spacing: 0.25rem;
   --primary-border: hsl(var(--primary));
   --secondary-border: hsl(var(--secondary));
   --muted-border: hsl(var(--muted));
@@ -119,30 +119,100 @@
   --sidebar-accent-border: hsl(var(--sidebar-accent));
 }
 
-.dark { color-scheme: light; }
+.dark {
+  color-scheme: light;
+}
 
 @layer base {
-  * { @apply border-border; }
-  html { scroll-behavior: smooth; }
-  body { @apply font-sans antialiased bg-background text-foreground; }
-  ::selection { background: hsl(var(--primary) / .18); color: hsl(var(--foreground)); }
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply overflow-x-hidden font-sans antialiased bg-background text-foreground;
+  }
+  img {
+    max-width: 100%;
+  }
+  ::selection {
+    background: hsl(var(--primary) / 0.18);
+    color: hsl(var(--foreground));
+  }
 }
 
 @layer utilities {
-  .eyebrow { font-family: var(--app-font-mono); font-size: .65rem; letter-spacing: .13em; text-transform: uppercase; color: hsl(var(--muted-foreground)); }
-  .display-title { font-size: clamp(3.1rem, 8vw, 8rem); line-height: .92; letter-spacing: -.075em; font-weight: 700; }
-  .noise::after { content: ''; position: fixed; inset: 0; pointer-events: none; opacity: .018; z-index: 50; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.65'/%3E%3C/svg%3E"); }
-  .text-balance { text-wrap: balance; }
-  .focus-ring:focus-visible { outline: 2px solid hsl(var(--primary)); outline-offset: 4px; }
-  .image-reveal { overflow: hidden; }
-  .image-reveal img { transition: transform .8s cubic-bezier(.2,.75,.2,1), opacity .8s ease; }
-  .group:hover .image-reveal img, .image-reveal:hover img { transform: scale(1.045); }
-  .editorial-rule { border-color: hsl(var(--foreground) / .14); }
-  .dark-panel { background: hsl(210 10% 13%); color: hsl(40 22% 96%); }
+  .eyebrow {
+    font-family: var(--app-font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: hsl(var(--muted-foreground));
+  }
+  .display-title {
+    font-size: clamp(3.1rem, 8vw, 8rem);
+    line-height: 0.92;
+    letter-spacing: -0.075em;
+    font-weight: 700;
+  }
+  .noise::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.018;
+    z-index: 50;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.65'/%3E%3C/svg%3E");
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+  .focus-ring:focus-visible {
+    outline: 2px solid hsl(var(--primary));
+    outline-offset: 4px;
+  }
+  .image-reveal {
+    overflow: hidden;
+  }
+  .image-reveal img {
+    transition:
+      transform 0.8s cubic-bezier(0.2, 0.75, 0.2, 1),
+      opacity 0.8s ease;
+  }
+  .group:hover .image-reveal img,
+  .image-reveal:hover img {
+    transform: scale(1.045);
+  }
+  .editorial-rule {
+    border-color: hsl(var(--foreground) / 0.14);
+  }
+  .dark-panel {
+    background: hsl(210 10% 13%);
+    color: hsl(40 22% 96%);
+  }
 }
 
-@keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
-.animate-rise { animation: rise .8s cubic-bezier(.2,.8,.2,1) both; }
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-rise {
+  animation: rise 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .01ms !important; }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
 }
