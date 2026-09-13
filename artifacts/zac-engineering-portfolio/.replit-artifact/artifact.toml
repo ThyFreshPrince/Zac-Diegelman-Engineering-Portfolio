@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Zac Diegelman Engineering Portfolio"
+description = "A premium, mobile-first mechanical engineering portfolio for Zechariah Diegelman, highlighting design, analysis, prototyping, testing, and hands-on engineering work for recruiters and professional contacts."
+version = "1.0.0"
+id = "artifacts/zac-engineering-portfolio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21826
+
+[services.development]
+run = "pnpm --filter @workspace/zac-engineering-portfolio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/zac-engineering-portfolio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/zac-engineering-portfolio/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21826"
+BASE_PATH = "/"
