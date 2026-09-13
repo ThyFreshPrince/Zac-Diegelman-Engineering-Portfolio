@@ -14,15 +14,16 @@ npm run dev
 The editable content lives in `src/data/site.ts`:
 
 - `site` contains contact details, school, location, and the availability line.
-- `projects` contains the project archive and reusable case-study content. Add a project object, then map its slug to a diagram variant in `src/pages/portfolio-pages.tsx`.
+- `projects` contains the project archive and reusable case-study content, including its local image reference and editable alt text.
+- `stockImages` is the single replacement point for the temporary photography used throughout the site. Replace the files in `public/images/stock/`, or update the four `src` values there when new assets are ready. The UI intentionally labels these images as temporary stock so they are not mistaken for Zac's project documentation.
 - `coursework`, `toolkit`, and `journey` power the archive pages.
 
 Project outcomes intentionally include clearly labeled editable placeholders where measured results were not supplied. Replace those strings with verified results only.
 
 ## Replacing media and resume
 
-- Technical diagrams are lightweight inline SVGs in `src/components/engineering-visual.tsx`. Replace a variant there with a local photograph, CAD screenshot, or generated image if desired.
-- Keep replacement images in `public/assets/` and reference them with `/assets/...`. This is the centralized media path.
+- The current portfolio uses local photographs from `public/images/stock/` as editorial placeholders. Source and attribution notes are in `STOCK_IMAGE_SOURCES.md`.
+- Keep replacement images local and update `stockImages` in `src/data/site.ts`; do not scatter image paths through page JSX.
 - Replace `public/assets/resume/Zechariah-Diegelman-Resume.pdf` with the current PDF. The Resume page download button already points to this exact path.
 
 ## Contact form

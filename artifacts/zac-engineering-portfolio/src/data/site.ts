@@ -17,6 +17,8 @@ export type Project = {
   deliverables: string[];
   outcomes: string[];
   status: string;
+  image: string;
+  imageAlt: string;
 };
 
 export const site = {
@@ -32,6 +34,30 @@ export const site = {
   intro: 'I design, build, analyze, test, troubleshoot, and improve physical systems.',
   availability: 'Open to internships, co-ops, and engineering opportunities',
 };
+
+/** Temporary stock references. Replace paths here when project photography is available. */
+export const stockImages = {
+  robotics: {
+    src: '/images/stock/robotics-arm.jpg',
+    alt: 'Temporary stock image of an engineering workstation with code and hardware',
+    note: 'Temporary stock image — not documentation of Zac’s project.',
+  },
+  instrumentation: {
+    src: '/images/stock/instrumentation.jpg',
+    alt: 'Temporary stock image of a close-up electronics and instrumentation board',
+    note: 'Temporary stock image — not documentation of Zac’s project.',
+  },
+  additive: {
+    src: '/images/stock/additive-manufacturing.jpg',
+    alt: 'Temporary stock image of a designer working at a technical workstation',
+    note: 'Temporary stock image — not documentation of Zac’s project.',
+  },
+  prototyping: {
+    src: '/images/stock/prototyping.jpg',
+    alt: 'Temporary stock image of engineering drawings and tools on a prototyping table',
+    note: 'Temporary stock image — not documentation of Zac’s project.',
+  },
+} as const;
 
 export const projects: Project[] = [
   {
@@ -51,6 +77,8 @@ export const projects: Project[] = [
     deliverables: ['Parametric CAD assembly', 'Interface and concept sketches', 'Design review documentation'],
     outcomes: ['Editable outcome placeholder — add measured repeatability or load results when available.', 'Editable outcome placeholder — add final design decision and rationale when available.'],
     status: 'Case study in progress',
+    image: stockImages.robotics.src,
+    imageAlt: stockImages.robotics.alt,
   },
   {
     slug: 'mechatronics-vibration',
@@ -69,6 +97,8 @@ export const projects: Project[] = [
     deliverables: ['Physical test fixture', 'Instrumentation plan', 'Test procedure and observations'],
     outcomes: ['Editable outcome placeholder — add frequency response or measured behavior when available.', 'Editable outcome placeholder — add troubleshooting findings when available.'],
     status: 'Case study in progress',
+    image: stockImages.instrumentation.src,
+    imageAlt: stockImages.instrumentation.alt,
   },
   {
     slug: 'additive-manufacturing',
@@ -87,6 +117,8 @@ export const projects: Project[] = [
     deliverables: ['Advanced 3D model', 'Manufacturing-ready export', 'Iteration notes'],
     outcomes: ['Editable outcome placeholder — add print orientation or material details when available.', 'Editable outcome placeholder — add lessons from physical iteration when available.'],
     status: 'Case study in progress',
+    image: stockImages.additive.src,
+    imageAlt: stockImages.additive.alt,
   },
   {
     slug: 'engineering-design-prototyping',
@@ -105,6 +137,8 @@ export const projects: Project[] = [
     deliverables: ['Concept sketches', 'Physical prototype', 'Build and revision notes'],
     outcomes: ['Editable outcome placeholder — add prototype count or final evaluation when available.', 'Editable outcome placeholder — add next-step recommendation when available.'],
     status: 'Case study in progress',
+    image: stockImages.prototyping.src,
+    imageAlt: stockImages.prototyping.alt,
   },
 ];
 

@@ -1,0 +1,190 @@
+PERSONAL WORK & LIFE OUTSIDE COURSEWORK
+
+Expand the portfolio beyond academic engineering projects.
+
+This portfolio should show Zac as a real builder, creator, and problem solver, not only as a university student.
+
+Add support for three project contexts:
+
+ACADEMIC
+PERSONAL
+PROFESSIONAL
+
+These labels should be subtle and elegant.
+
+Add a homepage section after the primary engineering projects called something similar to:
+
+"Beyond the Classroom"
+
+or
+
+"Built Beyond the Classroom"
+
+This section should showcase selected non-coursework work with large, premium imagery.
+
+INITIAL ITEMS:
+
+1. 1995 Honda Accord Engine Project
+
+Category:
+Personal / Automotive / Mechanical
+
+This is a hands-on automotive engine-swap/mechanical project.
+
+Do not invent engineering calculations or technical achievements.
+
+Present its real value:
+
+- mechanical aptitude
+- troubleshooting
+- working with real hardware
+- tools
+- disassembly/reassembly
+- fitment
+- persistence
+- learning by doing
+
+Use tasteful royalty-free automotive/mechanical workshop photography temporarily.
+
+Design the content system so actual engine-bay and project photographs can easily replace the stock photos later.
+
+2. VerseKey
+
+Category:
+Personal / Software / Product
+
+A personal iOS/software application project.
+
+Use a sophisticated temporary app/product-development visual until real screenshots are uploaded.
+
+Create room for:
+
+- app screenshots
+- problem
+- concept
+- technology
+- development
+- result
+
+This should demonstrate that Zac's technical interests extend beyond mechanical systems.
+
+3. J. Adam Builders
+
+Category:
+Professional / Web / Brand
+
+A real-world website and digital-brand project for a residential construction company.
+
+Present it as a professional side project rather than a mechanical-engineering project.
+
+Emphasize:
+
+- understanding client requirements
+- website development
+- information architecture
+- visual presentation
+- branding
+- deployment
+- communicating with a real business
+
+Use tasteful luxury-construction/home imagery temporarily.
+
+ABOUT PAGE — HANDS-ON BACKGROUND
+
+Strengthen the personal story.
+
+Before formal engineering education, Zac gained hands-on experience through areas including:
+
+- cabinetry
+- construction
+- landscaping
+- home-service work
+- farm work
+- mechanical work
+- crew leadership
+
+Do not turn this into a long biography.
+
+Create a visually strong section communicating the idea:
+
+"Before engineering school, I learned by building."
+
+Show how this background developed practical awareness of:
+
+- tools
+- materials
+- fit
+- sequence
+- access
+- troubleshooting
+- rework
+- customers
+- teamwork
+- physical constraints
+
+Eventually this section will use real photographs.
+
+Use tasteful free stock photography temporarily.
+
+INTERNATIONAL EXPERIENCE
+
+Create a smaller premium section covering Zac's international background.
+
+Locations:
+
+Costa Rica
+Honduras
+
+Mention Spanish proficiency and the perspective gained from living and working in different environments.
+
+Keep this professional and concise.
+
+Do not make this section feel like a travel blog.
+
+Allow 2–4 images that can later be replaced with Zac's actual photographs.
+
+PERSONAL PHOTO SECTION
+
+On the About page, reserve space for a tasteful editorial photo section showing selected aspects of life outside coursework.
+
+Possible themes:
+
+- automotive
+- building/making
+- travel
+- engineering
+- hobbies
+
+Do not create a social-media feed.
+
+Use a small number of strong images with an editorial layout.
+
+Use temporary free stock photography where actual images are not yet available.
+
+PROJECT FILTERS
+
+Update the project filtering/data model to support categories such as:
+
+All
+Mechanical Design
+Mechatronics
+Manufacturing
+Testing & Instrumentation
+Software
+Personal Builds
+
+Also support context tags:
+
+Academic
+Personal
+Professional
+
+The site should make the distinction clear without implying that non-engineering projects are engineering coursework.
+
+OVERALL PRINCIPLE:
+
+Formal engineering projects should remain the primary focus.
+
+Personal and professional projects should add depth, personality, and evidence of curiosity and initiative.
+
+The portfolio should leave an employer with the impression that Zac enjoys building and solving problems even when no class assignment requires him to.
