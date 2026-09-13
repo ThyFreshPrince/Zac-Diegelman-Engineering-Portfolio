@@ -1,0 +1,396 @@
+I want to substantially redesign the visual language of this portfolio.
+
+KEEP the existing React architecture, routing, project data structure, responsive functionality, and working pages.
+
+DO NOT simply recolor the existing UI.
+
+The current design feels too much like a futuristic terminal/dashboard: too many borders, grids, outlined cards, tiny monospace labels, cyan accents, technical decorations, and dark empty space.
+
+I want a fundamentally different visual direction.
+
+NEW DESIGN DIRECTION:
+
+Think premium modern industrial/product design.
+
+The closest design philosophy reference is Apple's current website presentation style: extremely clean, elegant, cinematic, spacious, sophisticated, highly visual, and restrained.
+
+DO NOT copy Apple's website, branding, exact layouts, assets, typography, or UI.
+
+Instead, adopt similar principles:
+
+- extreme visual clarity
+- large confident typography
+- generous negative space
+- minimal interface decoration
+- strong hierarchy
+- beautiful full-width imagery
+- cinematic project presentation
+- subtle premium animations
+- simple navigation
+- restrained color
+- exceptional spacing
+- product-focused storytelling
+- polished responsive behavior
+
+The portfolio should feel like:
+
+APPLE-STYLE PRODUCT PRESENTATION
++
+MODERN INDUSTRIAL DESIGN
++
+MECHANICAL ENGINEERING
++
+PREMIUM PERSONAL PORTFOLIO
+
+The website itself should get out of the way and allow my engineering work to become the visual centerpiece.
+
+REMOVE OR GREATLY REDUCE:
+
+- cyan neon aesthetic
+- persistent engineering grids
+- tiny technical metadata everywhere
+- excessive monospace text
+- outlined boxes everywhere
+- dashboard-like interfaces
+- fake blueprint graphics as primary imagery
+- terminal-style UI
+- excessive borders
+- decorative CAD elements everywhere
+- giant empty black sections
+- unnecessary labels
+- excessive project-card chrome
+
+Do not make the redesign look like a SaaS dashboard.
+
+Do not make it look cyberpunk.
+
+Do not make it look like a 2000s futuristic website.
+
+Do not make it look like a generic web template.
+
+COLOR PALETTE:
+
+Move to a sophisticated neutral palette.
+
+Primary:
+- deep charcoal
+- graphite
+- warm black
+- clean white
+- warm off-white
+- silver / aluminum gray
+- soft neutral gray
+
+Use blue only as a very restrained accent where appropriate.
+
+Do NOT make cyan the dominant visual identity.
+
+Alternate between tasteful dark and light sections when it improves storytelling.
+
+Some sections should use white or light-gray backgrounds.
+
+TYPOGRAPHY:
+
+Use large, modern, premium sans-serif typography.
+
+Headlines should be bold, clean, and simple.
+
+Reduce the amount of uppercase letter-spaced monospace text dramatically.
+
+Monospace may still appear occasionally for project numbers or engineering specifications, but it should be a minor detail.
+
+Use very large responsive typography for key statements.
+
+VISUAL PHILOSOPHY:
+
+Treat each major engineering project as if it were a premium product being introduced.
+
+Instead of placing every project inside a bordered rectangle, create cinematic sections.
+
+For example:
+
+FULL-WIDTH PROJECT VISUAL
+
+Robotic Manipulator
+
+Mechanical Design · Analysis · Mechatronics
+
+Short one- or two-sentence description.
+
+Explore Project →
+
+Then smoothly transition into the next project.
+
+Project imagery should dominate the design.
+
+For now use high-quality engineering stock photography or sophisticated neutral placeholders.
+
+The system MUST continue making it extremely easy for me to replace placeholder images with my real:
+
+- CAD renders
+- SolidWorks screenshots
+- prototypes
+- engineering drawings
+- test setups
+- plots
+- additive manufactured parts
+- project photographs
+
+HOMEPAGE HERO:
+
+Completely redesign the existing hero.
+
+Remove the dashboard/blueprint panel presentation.
+
+Use a clean, cinematic hero.
+
+Suggested structure:
+
+ZECHARIAH DIEGELMAN
+
+Mechanical Engineering
+UNC Charlotte
+
+Large primary statement:
+
+"Engineering ideas into reality."
+
+or another concise premium statement.
+
+Supporting line:
+
+Mechanical Design · Mechatronics · Prototyping · Testing
+
+Buttons:
+
+View Projects
+Resume
+
+Use one dominant engineering visual or sophisticated abstract mechanical/CAD visual.
+
+Keep the hero extremely clean.
+
+No excessive technical decorations.
+
+PROJECT PRESENTATION:
+
+Replace the existing grid-heavy project-card look with a more editorial/product-launch presentation.
+
+Featured projects should feel visually substantial.
+
+The first robotic-manipulator project should be the flagship project.
+
+Give it significantly more visual presence than other projects.
+
+Use large imagery, clean text, and strong whitespace.
+
+Additional projects may use alternating image/text layouts.
+
+Do not make every project section identical.
+
+Create visual rhythm.
+
+PROJECT PAGE:
+
+The Projects archive can still have filtering, but redesign it.
+
+Use large editorial thumbnails.
+
+Use beautiful hover states.
+
+Reduce borders.
+
+Allow imagery to dominate.
+
+The individual case-study pages should be extremely clean.
+
+Use sections such as:
+
+Overview
+Challenge
+My Role
+Design
+Analysis
+Prototype
+Testing
+Results
+Gallery
+
+Engineering diagrams and calculations should be treated almost like editorial photography with generous whitespace around them.
+
+ABOUT PAGE:
+
+Make the About page significantly more personal.
+
+Reserve a major area for a future professional photograph of me.
+
+Use a temporary tasteful placeholder image for now.
+
+The page should look like the profile page of a designer/engineer, not a company mission statement.
+
+Keep the strongest parts of my background:
+
+- Mechanical Engineering at UNC Charlotte
+- Associate in Engineering from CPCC
+- hands-on work background
+- construction/cabinetry/mechanical experience
+- Costa Rica/Honduras
+- Spanish proficiency
+- engineering interests
+
+But shorten the writing.
+
+Use clean typography, photography, and spacing instead of large blocks of copy.
+
+SKILLS:
+
+Do not use four giant bordered cards.
+
+Create a cleaner capabilities section.
+
+Potential layout:
+
+DESIGN
+SolidWorks · nTop · AutoCAD · Blender
+
+ENGINEERING COMPUTING
+MATLAB · Python · C++ · Arduino
+
+TESTING
+LabVIEW · NI DAQ · Instrumentation
+
+BUILD
+Additive Manufacturing · Prototyping · Fabrication
+
+Use typography and spacing rather than heavy card UI.
+
+RESUME PAGE:
+
+Simplify substantially.
+
+Large heading.
+
+Short explanation.
+
+Prominent:
+
+Download Resume
+
+Open Resume
+
+LinkedIn
+
+Show an elegant resume preview below.
+
+Remove technical-dashboard styling.
+
+CONTACT:
+
+Simplify.
+
+Large statement such as:
+
+"Let's build something."
+
+Email
+LinkedIn
+
+Simple contact form.
+
+No "message intake" terminology.
+No "open channel."
+No pseudo-terminal language.
+
+NAVIGATION:
+
+Make navigation cleaner and quieter.
+
+Logo/name at left.
+
+Projects
+About
+Resume
+Coursework
+Contact
+
+Minimal LinkedIn icon if appropriate.
+
+Remove "START A CONVERSATION" from the persistent header.
+
+Use a simple Contact item instead.
+
+ANIMATION:
+
+Animations should feel premium and nearly invisible.
+
+Use techniques such as:
+
+- fade + translate
+- image scaling during scroll
+- reveal masks
+- smooth text appearance
+- subtle parallax
+- smooth section transitions
+
+Do not use:
+- bouncing
+- excessive glowing
+- constant animated grids
+- gimmicky cursor effects
+- animations on every element
+
+Think sophisticated product presentation.
+
+SPACING:
+
+Increase breathing room around important content, but avoid giant meaningless blank sections.
+
+Space should feel intentional.
+
+Every screenful should either:
+
+- make a statement
+- show engineering work
+- reveal useful information
+
+PHOTOGRAPHY:
+
+The website eventually needs real photographs.
+
+Design around that reality now.
+
+Create large placeholder image areas for:
+
+- professional portrait
+- robotic system
+- CAD screenshots
+- mechatronics test setup
+- additive manufacturing projects
+- Accord engine project
+- fabrication/prototyping
+- personal engineering work
+
+The site must look increasingly impressive as I replace placeholders with my real content.
+
+IMPORTANT:
+
+Professional first.
+Elegant second.
+Engineering third.
+Futuristic only as a subtle undertone.
+
+Technology should be communicated through the engineering work itself, not through decorative UI.
+
+The finished website should feel like an engineer with strong industrial-design taste created a premium portfolio — not like someone selected a futuristic portfolio template.
+
+Before finishing, compare every section against these questions:
+
+1. Is this visually necessary?
+2. Is this cleaner than the previous version?
+3. Is the engineering work getting more attention than the UI?
+4. Would this still look premium without cyan?
+5. Does this feel contemporary rather than cyberpunk?
+6. Does the page feel like one cohesive design system?
+7. Would a recruiter immediately understand who Zac is and what he builds?
+
+Then implement the redesign across ALL pages while preserving the current functionality.

@@ -1,0 +1,144 @@
+STOCK PHOTOGRAPHY — IMPORTANT
+
+For this first version, actively find and use high-quality FREE stock photography wherever real imagery would improve the website.
+
+I do NOT want empty gray placeholder boxes or fake schematic illustrations everywhere while I wait to upload my own photos.
+
+Use appropriate free-to-use imagery from reputable sources such as:
+
+- Unsplash
+- Pexels
+- Pixabay
+- other reputable royalty-free/free-stock sources when licensing permits
+
+Choose images that fit the premium, clean, modern industrial aesthetic of the site.
+
+Good temporary imagery includes:
+
+- mechanical engineering
+- CAD / product development
+- robotics
+- mechanical assemblies
+- industrial design
+- engineering workstations
+- prototyping
+- machining
+- manufacturing
+- 3D printing
+- additive manufacturing
+- electronics / instrumentation
+- engineering laboratories
+- testing equipment
+- automotive mechanical work
+- detailed close-ups of machined components
+- premium industrial/product photography
+- tasteful professional portraits where a temporary profile image is needed
+
+AVOID stereotypical stock photography such as:
+
+- people pointing at laptop screens
+- fake business meetings
+- excessive hard hats for no reason
+- handshake photos
+- generic office teams
+- obviously staged engineers smiling at monitors
+- cheesy futuristic technology graphics
+- random circuit-board backgrounds
+- AI-looking machinery
+- images unrelated to the actual section
+
+The imagery should feel closer to high-end product photography and industrial-design editorial photography than conventional corporate stock imagery.
+
+Whenever possible, prefer:
+
+- clean compositions
+- neutral backgrounds
+- dramatic but realistic lighting
+- close-up mechanical details
+- sophisticated materials
+- black, white, gray, metallic, and neutral tones
+- photography with enough negative space for layout flexibility
+
+PROJECT-SPECIFIC TEMPORARY PHOTOS:
+
+For the robotic manipulator project:
+Use premium robotics, robotic-arm, mechanical-joint, CAD, or precision-mechanism photography.
+
+For the vibrating beam / mechatronics project:
+Use laboratory instrumentation, sensors, DAQ equipment, oscilloscopes, vibration testing, electronics, or experimental mechanical-system photography.
+
+For additive manufacturing:
+Use industrial 3D printing, complex printed geometry, CAD models, additive-manufacturing equipment, or sophisticated prototype photography.
+
+For engineering design/prototyping:
+Use CAD, prototypes, machined components, workshop photography, engineering drawings, or product-development imagery.
+
+For automotive/personal mechanical projects:
+Use tasteful automotive mechanical / engine / workshop imagery until my actual project photos are available.
+
+For About:
+Use a tasteful professional engineer/designer/person portrait temporarily, but make it obvious in the code where this image should later be replaced with my real photo.
+
+IMPORTANT:
+
+These stock images are TEMPORARY.
+
+I will gradually replace them with my actual:
+
+- project photos
+- CAD screenshots
+- SolidWorks renders
+- nTop models
+- test setups
+- engineering drawings
+- graphs
+- prototype photographs
+- professional portraits
+- automotive photos
+
+Design the entire image system around easy replacement.
+
+Do not hardcode image URLs throughout React components.
+
+Create centralized image references in the site's content/data files.
+
+For example:
+
+heroImage
+thumbnailImage
+galleryImages
+profileImage
+backgroundImage
+
+Store downloaded stock assets in organized folders such as:
+
+/public/images/stock/
+/public/images/profile/
+/public/images/projects/robotics/
+/public/images/projects/mechatronics/
+/public/images/projects/additive/
+/public/images/projects/prototyping/
+/public/images/projects/automotive/
+
+When possible, download the permitted stock image into the project instead of depending permanently on a fragile external hotlink.
+
+Also create a file such as:
+
+STOCK_IMAGE_SOURCES.md
+
+List:
+- image filename
+- stock provider
+- original source page
+- photographer/creator if applicable
+- whether attribution is required
+
+This makes it easy for me to identify and replace every stock asset later.
+
+Do not use copyrighted commercial product photography without permission.
+
+Do not use images with visible watermarks.
+
+Do not use AI-generated imagery when an appropriate real stock photograph is available.
+
+REAL PHOTOS SHOULD EVENTUALLY REPLACE STOCK PHOTOS, but the website needs to look polished and complete NOW rather than waiting for those assets.
